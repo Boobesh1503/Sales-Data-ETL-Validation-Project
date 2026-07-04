@@ -1,0 +1,61 @@
+﻿order_id,customer_id,customer_name,product_id,product_name,category,order_date,quantity,unit_price,discount_percent,city,payment_mode
+1001,C001,Arun,P001,Keyboard,Electronics,2025-01-01,1,700,0,Chennai,UPI
+1002,C002,Bala,P004,Laptop,Electronics,2025-01-02,2,55000,5,Coimbatore,Card
+1003,C003,Divya,P007,Notebook,Stationery,2025-01-03,3,80,10,Bangalore,Cash
+1004,C004,Karthik,P010,Table,Furniture,2025-01-04,4,4500,15,Hyderabad,Net Banking
+1005,C005,Priya,P003,Monitor,Electronics,2025-01-05,5,9000,20,Mumbai,UPI
+1006,C006,Rahul,P006,Printer,Electronics,2025-01-06,1,12000,0,Delhi,Card
+1007,C007,Sneha,P009,Headphone,Electronics,2025-01-07,2,1500,5,Chennai,Cash
+1008,C008,Vignesh,P002,Mouse,Electronics,2025-01-08,3,500,10,Coimbatore,Net Banking
+1009,C009,Anitha,P005,Office Chair,Furniture,2025-01-09,4,3500,15,Bangalore,UPI
+1010,C010,Ajay,P008,Pen Drive,Electronics,2025-01-10,5,650,20,Hyderabad,Card
+1011,,Meena,P001,Keyboard,Electronics,2025-01-11,1,700,0,Mumbai,Cash
+1012,C012,Hari,P004,Laptop,Electronics,2025-01-12,2,55000,5,Delhi,Net Banking
+1013,C013,Kavin,P007,Notebook,Stationery,2025-01-13,3,80,10,Chennai,UPI
+1014,C014,Nisha,P010,Table,Furniture,2025-01-14,4,4500,15,Coimbatore,Card
+1015,C015,Sanjay,P003,Monitor,Electronics,2025-01-15,5,9000,20,Bangalore,Cash
+1016,C001,Arun,P006,Printer,Electronics,2025-01-16,1,12000,0,Hyderabad,Net Banking
+1017,C002,Bala,P009,Headphone,Electronics,2025-01-17,2,1500,5,Mumbai,UPI
+1018,C003,Divya,P002,Mouse,Electronics,,3,500,10,Delhi,Card
+1019,C004,Karthik,P005,Office Chair,Furniture,2025-01-19,4,3500,15,Chennai,Cash
+1020,C005,Priya,P008,Pen Drive,Electronics,2025-01-20,5,650,20,Coimbatore,Net Banking
+1021,C006,Rahul,P001,Keyboard,Electronics,2025-01-21,1,700,0,Bangalore,UPI
+1022,C007,Sneha,P004,Laptop,Electronics,2025-01-22,2,-500,5,Hyderabad,Card
+1023,C008,Vignesh,P007,Notebook,Stationery,2025-01-23,3,80,10,Mumbai,Cash
+1024,C009,Anitha,P010,Table,Furniture,2025-01-24,4,4500,15,Delhi,Net Banking
+1010,C010,Ajay,P003,Monitor,Electronics,2025-01-25,5,9000,20,Chennai,UPI
+1026,C011,Meena,P006,Printer,Electronics,2025-01-26,1,12000,0,Coimbatore,Card
+1027,C012,Hari,P009,Headphone,Electronics,2025-01-27,2,1500,5,Bangalore,Cash
+1028,C013,Kavin,P002,Mouse,Electronics,2025-01-28,3,500,10,Hyderabad,Net Banking
+1029,C014,Nisha,P005,Office Chair,Furniture,2025-01-29,4,3500,15,Mumbai,UPI
+1030,C015,Sanjay,P008,Pen Drive,Electronics,2025-01-30,5,650,20,Delhi,Card
+1031,C001,Arun,P001,Keyboard,Electronics,2025-01-31,1,700,0,Chennai,Cash
+1032,C002,Bala,P004,Laptop,Electronics,2025-02-01,2,55000,5,Coimbatore,Net Banking
+1033,C003,Divya,P007,Notebook,Stationery,2025-02-02,3,80,10,Bangalore,UPI
+1034,C004,Karthik,P010,Table,Furniture,2025-02-03,,4500,15,Hyderabad,Card
+1035,C005,Priya,P003,Monitor,Electronics,2025-02-04,5,9000,20,Mumbai,Cash
+1036,C006,Rahul,P006,Printer,Electronics,2025-02-05,1,12000,0,Delhi,Net Banking
+1037,C007,Sneha,P009,Headphone,Electronics,2025-02-06,2,1500,5,Chennai,UPI
+1038,C008,Vignesh,P002,Mouse,Electronics,2025-02-07,3,500,10,Coimbatore,Card
+1039,C009,Anitha,P005,Office Chair,Furniture,2025-02-08,4,3500,15,Bangalore,Cash
+1040,C010,Ajay,P008,Pen Drive,Electronics,2025-02-09,5,650,120,Hyderabad,Net Banking
+1041,C011,Meena,P001,Keyboard,Electronics,2025-02-10,1,700,0,Mumbai,UPI
+1042,C012,Hari,P004,Laptop,Electronics,2025-02-11,2,55000,5,Delhi,Card
+1043,C013,Kavin,P007,Notebook,Stationery,2025-02-12,3,80,10,Chennai,Cash
+1044,C014,Nisha,P010,Table,Furniture,2025-02-13,4,4500,15,Coimbatore,Net Banking
+1045,C015,Sanjay,P003,Monitor,Electronics,2025-02-14,5,9000,20,Bangalore,UPI
+1046,C001,Arun,P006,Printer,Furniture,2025-01-01,1,12000,0,Hyderabad,Card
+1047,C002,Bala,P009,Headphone,Electronics,2025-01-02,2,1500,5,Mumbai,Cash
+1048,C003,Divya,P002,Mouse,Electronics,2025-01-03,3,500,10,Delhi,Net Banking
+1049,C004,Karthik,P005,Office Chair,Furniture,2025-01-04,4,3500,15,Chennai,UPI
+1050,C005,Priya,P008,Pen Drive,Electronics,2025-01-05,5,650,20,Coimbatore,Card
+1051,C006,Rahul,P001,Keyboard,Electronics,2025-01-06,1,700,0,Bangalore,Cash
+1052,C007,Sneha,P004,Laptop,Electronics,2025-01-07,2,55000,5,Hyderabad,Net Banking
+1053,C008,Vignesh,P007,Notebook,Stationery,2025-01-08,3,80,10,Mumbai,Cheque
+1054,C009,Anitha,P010,Table,Furniture,2025-01-09,4,4500,15,Delhi,Card
+1055,C010,Ajay,P003,Monitor,Electronics,2025-01-10,5,9000,20,Chennai,Cash
+1056,C011,Meena,P006,Printer,Electronics,2025-01-11,1,12000,0,Coimbatore,Net Banking
+1057,C012,Hari,P009,Headphone,Electronics,2025-01-12,2,1500,5,,UPI
+1058,C013,Kavin,P002,Mouse,Electronics,2025-01-13,3,500,10,Hyderabad,Card
+1059,C014,Nisha,P005,Office Chair,Furniture,2025-01-14,4,3500,15,Mumbai,Cash
+1060,C015,Sanjay,P008,Pen Drive,Electronics,2025-01-15,5,650,20,Delhi,Net Banking
