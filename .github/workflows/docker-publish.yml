@@ -1,0 +1,35 @@
+name: Docker Build and Push to GHCR
+
+on:
+  push:
+    branches:
+      - devops-upgrade
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  docker-publish:
+    name: Build and Publish Docker Image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ghcr.io/boobesh1503/sales-etl-validation:latest
+            ghcr.io/boobesh1503/sales-etl-validation:${{ github.sha }}
