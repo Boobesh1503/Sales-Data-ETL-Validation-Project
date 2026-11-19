@@ -11,14 +11,14 @@ SELECT
     unit_price,
     discount_percent,
 
-    (quantity * unit_price * discount_precent / 100),
+    (quantity * unit_price * discount_percent / 100),
 
     (quantity * unit_price)
-    - (quantity * unit_price * discount_precent / 100),
+    - (quantity * unit_price * discount_percent / 100),
 
     CASE
         WHEN ((quantity * unit_price)
-        - (quantity * unit_price * discount_precent / 100)) >= 5000
+        - (quantity * unit_price * discount_percent / 100)) >= 5000
         THEN 'High Value'
         ELSE 'Normal'
     END,
